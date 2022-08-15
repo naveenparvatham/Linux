@@ -1,4 +1,5 @@
 #!/bin/bash
+$date
 echo "Connecting to remote server..."
 echo "CPU Load:"
 sshpass -p "tom" ssh tom@192.168.88.133 "uptime"
